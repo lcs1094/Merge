@@ -58,18 +58,18 @@ public class WitchController : MonoBehaviour
             this.rb.AddForce(transform.up * this.jumpforce);
         }
     }*/
-    void OnTriggerEnter2D(Collider2D col){
+    void OnTriggerEnter2D(Collider2D col){  // Player 태그를 가진 콜라이더와 충돌시 추적 타겟을 설정
         if(col.gameObject.tag == "Player"){
             traceTarget = col.gameObject;
             StopCoroutine("ChangeMove");
         }
     }
-    void OnTriggerStay2D(Collider2D col){
+    void OnTriggerStay2D(Collider2D col){   // 추적중 함수
         if(col.gameObject.tag == "Player"){
             isTracing = true;
         }
     }
-    void OnTriggerExit2D (Collider2D col){
+    void OnTriggerExit2D (Collider2D col){  // 추적 종료 함수, 난수이동 Coroutine 시작
         if(col.gameObject.tag == "Player"){
             isTracing = false;
             StartCoroutine("ChangeMove");
