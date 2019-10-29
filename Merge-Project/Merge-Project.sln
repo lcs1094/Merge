@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0F18B51B-ECF9-D55B-4239-F2098FC60D0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aura2_Core", "Aura2_Core.csproj", "{D985BDBA-5A21-5163-5576-489737B39185}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{FDD12AB4-10F9-C4B4-525A-2D435A2F10EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMotionSourceApplication", "UMotionSourceApplication.csproj", "{7983A96E-851B-9F5A-FCAA-4C9E13D3C07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMotionSourceEditor", "UMotionSourceEditor.csproj", "{A669A3D2-2108-9585-DD72-595A7B02EB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aura2_Editor", "Aura2_Editor.csproj", "{A1137602-96A7-E7BF-6A67-9024184524F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +23,26 @@ Global
 		{0F18B51B-ECF9-D55B-4239-F2098FC60D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F18B51B-ECF9-D55B-4239-F2098FC60D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F18B51B-ECF9-D55B-4239-F2098FC60D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D985BDBA-5A21-5163-5576-489737B39185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D985BDBA-5A21-5163-5576-489737B39185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D985BDBA-5A21-5163-5576-489737B39185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D985BDBA-5A21-5163-5576-489737B39185}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDD12AB4-10F9-C4B4-525A-2D435A2F10EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDD12AB4-10F9-C4B4-525A-2D435A2F10EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD12AB4-10F9-C4B4-525A-2D435A2F10EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD12AB4-10F9-C4B4-525A-2D435A2F10EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7983A96E-851B-9F5A-FCAA-4C9E13D3C07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7983A96E-851B-9F5A-FCAA-4C9E13D3C07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7983A96E-851B-9F5A-FCAA-4C9E13D3C07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7983A96E-851B-9F5A-FCAA-4C9E13D3C07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A669A3D2-2108-9585-DD72-595A7B02EB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A669A3D2-2108-9585-DD72-595A7B02EB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A669A3D2-2108-9585-DD72-595A7B02EB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A669A3D2-2108-9585-DD72-595A7B02EB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1137602-96A7-E7BF-6A67-9024184524F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1137602-96A7-E7BF-6A67-9024184524F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1137602-96A7-E7BF-6A67-9024184524F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1137602-96A7-E7BF-6A67-9024184524F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
