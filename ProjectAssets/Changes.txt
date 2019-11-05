@@ -1,6 +1,28 @@
-*수정 후 무엇을 수정했는지 꼭 기록하기(가능한 한 자세히)
+﻿*수정 후 무엇을 수정했는지 꼭 기록하기(가능한 한 자세히)
 *최신 수정사항을 위로 오도록 기록하기(이전과 구분이 편하도록 ===... 복사해서 사용)
+*Assets폴더는 최종내용으로 계속 갱신, 후에 이전버전이 필요할 수도 있으니 따로 날짜와 작성자 이름이 붙은 폴더 추가하기
 
+11.06:: YJuu
+1)GameManger.cs
+-각 엔딩의 획득 여부를 저장하는 endings배열 생성, false로 초기화 및 엔딩 획득 시 변경하는 함수 작성
+
+2)StageManager.cs
+-엔딩요건(생명, 엄마 아빠의 생명, Stage04진입여부, 마녀처치여부), 획득한 엔딩 번호, 플레이어 정보(플레이중인 캐릭터, 스킬사용여부)와 관련된 멤버변수 선언
+-각 멤버변수의 설정자 및 접근자 함수 작성
+-Scene이동을 위해 GameManager객체 생성 후 오브젝트 등록
+-엔딩요건을 확인하는 함수 구현
+-엔딩을 획득할 시 엔딩화면으로 이동하는 함수 구현
+
+3)PlayerController.cs
+-기존에 다른 게임에서 사용한 함수 복붙
+
++)PlayerController스크립트 전체적으로 수정 필요
++)참고할 사이트 
+-DontDestroyOnLoad파괴 : http://www.devkorea.co.kr/bbs/board.php?bo_table=m03_qna&wr_id=45830
+-스킬쿨타임 : https://solution94.tistory.com/16
+-스테이지 이동 : http://blog.naver.com/PostView.nhn?blogId=gold_metal&logNo=220890938903&categoryNo=40&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search
+-플레이어 상태 저장 : https://docs.unity3d.com/ScriptReference/PlayerPrefs.html
+============================================================
 11.05 :: YJuu
 1)Scene 추가
 -MainScene(메인화면), Stage01,Stage02,Stage03,Stage04(게임화면), EndingScene(엔딩을 봤을때 텍스트가 출력될 화면), Gallery(모은 엔딩 확인)
