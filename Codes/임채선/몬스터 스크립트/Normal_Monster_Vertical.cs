@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Normal_Monster : MonoBehaviour
+public class Normal_Monster_Vertical : MonoBehaviour
 {
     Rigidbody2D rb; // 오브젝트 물리속성
     float speed = 3.0f; // 오브젝트 움직임 속도
@@ -33,22 +32,24 @@ public class Normal_Monster : MonoBehaviour
             Vector3 playerPos = detectedTarget.transform.position;
             if(playerPos.x < this.transform.position.x){
                 transform.localScale = new Vector3(5, 5, 1);
-                moveVelocity = Vector3.left;
             }
             else if(playerPos.x > this.transform.position.x){
-                moveVelocity = Vector3.right;
                 transform.localScale = new Vector3(-5, 5, 1);
             }
+            if(playerPos.y > this.transform.position.y)
+                moveVelocity = Vector3.up;
+            else if(playerPos.y < this.transform.position.y)
+                moveVelocity = Vector3.down;
         }
         else{
             if (movementFlag == 1)
-                moveVelocity = Vector3.left;
+                moveVelocity = Vector3.up;
             else if (movementFlag == 2)
-                moveVelocity = Vector3.right;
+                moveVelocity = Vector3.down;
         }
         transform.position += moveVelocity * speed * Time.deltaTime;
     }
-
+    
     void Die(){
         isDead = true;
         int drop = Random.Range(0,10);
@@ -136,6 +137,9 @@ public class Normal_Monster : MonoBehaviour
             else if(playerPos.x > this.transform.position.x){
                 transform.localScale = new Vector3(-5, 5, 1);
             }
+            if(playerPos.y > this.transform.position.y){
+                
+            }
             skill_timer += Time.deltaTime;  // 스킬 발동을 위한 시간 측정
             if(skill_timer > skill_Active){ // 스킬 발동을 위한 시간이 쿨타임만큼 지나면
                 skill_timer = 0.0f;         // 시간 변수 초기화
@@ -143,5 +147,5 @@ public class Normal_Monster : MonoBehaviour
                 skill.transform.position = transform.position;    // 스킬의 위치는 몬스터 오브젝트의 위치로 생성
             }
         }
-    }   
+    }
 }
