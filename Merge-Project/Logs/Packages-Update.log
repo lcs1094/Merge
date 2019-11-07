@@ -1,0 +1,16 @@
+
+=== Tue Nov  5 16:35:28 2019
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were 추가됨:
+  com.unity.package-manager-ui@2.2.0
+  com.unity.ext.nunit@1.0.0
+  com.unity.test-framework@1.0.13
+  com.unity.ide.vscode@1.1.0
+  com.unity.ide.rider@1.1.0
+  com.unity.ugui@1.0.0
+  com.unity.modules.androidjni@1.0.0
+The following packages were 업데이트됨:
+  com.unity.collab-proxy 1.2.9 버전에서 1.2.16버전으로  com.unity.textmeshpro 2.0.0 버전에서 2.0.1버전으로  com.unity.timeline 0.0.0-builtin 버전에서 1.1.0버전으로
