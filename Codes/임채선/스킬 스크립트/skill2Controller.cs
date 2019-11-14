@@ -18,6 +18,8 @@ public class skill2Controller : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col){
         if(col.transform.tag =="Player"){ // 공격 스킬 피격판정시
         // col.transform.tag로 사용 가능, 단, tag 사용시 모든 스킬의 tag 변경할 것
+            col.gameObject.GetComponent<PlayerController>().hit();
+            //Stagemanager.instance.hit(20);    // 스테이지매니저.인스턴스이름.함수
             Destroy(gameObject);
         }
     }
