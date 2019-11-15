@@ -1,2 +1,6 @@
 UnityLockfile
 **/Temp/
+**/Merge-Project/
+Merge-Project/
+Merge-Project/Library/
+*.meta
