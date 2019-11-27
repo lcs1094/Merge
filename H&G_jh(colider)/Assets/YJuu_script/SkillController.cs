@@ -7,19 +7,32 @@ public class SkillController : MonoBehaviour
     private int direction = 0;
     private Vector3 playerPos = new Vector3(0, 0, 0);
     private float delta = 0;
-    private int skillTimer = 5;
+    private int skillTimer = 6;
+    private string tag = "";
+    private GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = playerPos;
+        this.tag = gameObject.tag;
+        Player = GameObject.FindWithTag("Player");
+        Debug.Log(Player.name);
+        this.transform.position = Player.transform.position;
+        setPosition();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Timer();
-        skillMove();
+        skillType();
+    }
+
+    private void skillType()
+    {
+        if(tag == "GSkill02")
+        {
+            Timer();
+        }
     }
 
     void OnTriggerStay2D(Collider2D col)
@@ -35,8 +48,8 @@ public class SkillController : MonoBehaviour
     private void Timer()
     {
         delta += Time.deltaTime;     // 스킬 생성 이후 Time Ticks
-        if (delta > skillTimer)     // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
-            Destroy(gameObject);            // 스킬 오브젝트 파괴
+        if (delta > skillTimer)      // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
+            Destroy(gameObject);     // 스킬 오브젝트 파괴
     }
 
     private void skillMove()
@@ -50,9 +63,15 @@ public class SkillController : MonoBehaviour
         this.direction = direction;
     }
 
-    public void setPlayerPos(Vector3 playerPos)
+    public void setPlayerPos()
     {
-        this.playerPos = playerPos;
+        this.playerPos = Player.transform.position;
+    }
+
+    private void setPosition()
+    {
+        this.transform.position = Player.transform.position;
+        this.transform.Translate(new Vector3(0, 1, 0));
     }
 }
     

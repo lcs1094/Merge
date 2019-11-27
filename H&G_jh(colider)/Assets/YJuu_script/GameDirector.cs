@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameDirector : MonoBehaviour
 {
+    /* 안쓰이는 스크립트
     private Vector3 defaultPosSt01 = new Vector3(0, 0, 0);
     private Vector3 defaultPosSt02 = new Vector3(-50, 0, 0);
     private GameObject stageManager;
@@ -50,5 +51,5 @@ public class GameDirector : MonoBehaviour
         isHansel = stageManager.GetComponent<StageManager>().getIsHansel();
         if (isHansel) { player = Hansel; Debug.Log("Hansel"); }
         else { player = Gretel; Debug.Log("Gretel"); }
-    }
+    }*/
 }

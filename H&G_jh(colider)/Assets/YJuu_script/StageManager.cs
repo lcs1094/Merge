@@ -41,7 +41,6 @@ public class StageManager : MonoBehaviour
     void Update()
     {
         stage = GameManager.GetComponent<GameManager>().getSceneNum();
-        Debug.Log(stage);
     }
 
     //엔딩 요건들을 확인하여 획득한 엔딩이 있는지 확인
@@ -75,14 +74,8 @@ public class StageManager : MonoBehaviour
   
     public void goNextStage()
     {
-        if (stage == 0)
-        {
-            GameManager.GetComponent<GameManager>().goForestScene();
-            sceneChanged = true;
-
-        }
-
-
+        if (stage == 0){GameManager.GetComponent<GameManager>().goForestScene();}
+        else if (stage == 1) { GameManager.GetComponent<GameManager>().goStage03(); }
     }
 
     //각 멤버변수들의 설정자, 접근자
@@ -144,6 +137,14 @@ public class StageManager : MonoBehaviour
         if (name == "Hansel") { this.HSkill02 = true; Debug.Log("HSkill02"); }
         else if (name == "Gretel") { this.GSkill02 = true; Debug.Log("GSkill02"); }
     }
+
+    public bool getHSkill01() { return HSkill01; }
+
+    public bool getHSkill02() { return HSkill02; }
+
+    public bool getGSkill01() { return GSkill01; }
+
+    public bool getGSkill02() { return GSkill02; }
 
     public int getStage() { return stage; }
 

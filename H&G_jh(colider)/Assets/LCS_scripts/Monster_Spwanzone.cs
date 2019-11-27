@@ -4,25 +4,33 @@ using UnityEngine;
 
 public class Monster_Spwanzone : MonoBehaviour
 {
-    bool isspwan;
+    public bool isDead;
     float spwan_timer = 0f;
-    float spwan_time = 3.0f;
+    float spwan_time = 15.0f;
     bool istime = false;
     public GameObject Monster;
+    GameObject Spwaned_Monster;
     void OnTriggerEnter2D(Collider2D col){
         if(col.gameObject.tag == "Monster"){
-            isspwan = Monster_Generator.MG.setspwan();
+            Spwaned_Monster = col.gameObject;
+            col.gameObject.GetComponent<Monster>().Set_Zone(this.transform.position);
         }
     }
     void OnTriggerExit2D(Collider2D col){
-        if(col.gameObject.tag == "Moster"){
-            isspwan = Monster_Generator.MG.unsetspwan();
+        if(col.gameObject.tag == "Monster"){
+            Debug.Log("Zone Out!");
+            col.gameObject.GetComponent<Monster>().Zone_Out();
         }
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+        float x = Random.Range(-1.0f,1.0f);
+        Vector3 pos = this.transform.position;
+        pos.x += x;
+        GameObject Spwan_Monster = Instantiate(Monster) as GameObject;
+        Spwan_Monster.transform.position = pos;
+        isDead = Spwaned_Monster.GetComponent<Monster>().isDead;
     }
 
     // Update is called once per frame
@@ -36,13 +44,11 @@ public class Monster_Spwanzone : MonoBehaviour
         else{
             istime = false;
         }
-        if(!isspwan && istime){
-            float x = Random.Range(-2.5f,2.5f);
-            Vector3 pos = this.transform.position;
-            pos.x += x;
+        if(isDead && istime){
             GameObject Spwan_Monster = Instantiate(Monster) as GameObject;
-            Spwan_Monster.transform.position = pos;
-            isspwan = true;
+            Spwan_Monster.transform.position = this.transform.position;
+            isDead = false;
+            Spwaned_Monster.GetComponent<Monster>().Set_SpwanZone(this.gameObject);
         }
     }
 }
