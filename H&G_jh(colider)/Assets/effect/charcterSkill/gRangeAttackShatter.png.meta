@@ -1,0 +1,3415 @@
+fileFormatVersion: 2
+guid: 8848aac3a449ce549adb8dc4881a809b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2838514863713237285
+    second: gRangeAttackShatter_0
+  - first:
+      213: -751885573319717194
+    second: gRangeAttackShatter_1
+  - first:
+      213: 405162464767432248
+    second: gRangeAttackShatter_2
+  - first:
+      213: 616900791892850695
+    second: gRangeAttackShatter_3
+  - first:
+      213: -3839861284558236621
+    second: gRangeAttackShatter_4
+  - first:
+      213: 6130515455716155403
+    second: gRangeAttackShatter_5
+  - first:
+      213: 2586291830697432225
+    second: gRangeAttackShatter_6
+  - first:
+      213: 7115310353500373499
+    second: gRangeAttackShatter_7
+  - first:
+      213: 6898664468477058905
+    second: gRangeAttackShatter_8
+  - first:
+      213: 5747390589119611317
+    second: gRangeAttackShatter_9
+  - first:
+      213: -2710517668887975235
+    second: gRangeAttackShatter_10
+  - first:
+      213: -344543671810342516
+    second: gRangeAttackShatter_11
+  - first:
+      213: -7020494802776784636
+    second: gRangeAttackShatter_12
+  - first:
+      213: -8165707466072503304
+    second: gRangeAttackShatter_13
+  - first:
+      213: 5184436886777969469
+    second: gRangeAttackShatter_14
+  - first:
+      213: -3990698746628754298
+    second: gRangeAttackShatter_15
+  - first:
+      213: 6479628005988448647
+    second: gRangeAttackShatter_16
+  - first:
+      213: 3283308187223426071
+    second: gRangeAttackShatter_17
+  - first:
+      213: -487267080339676677
+    second: gRangeAttackShatter_18
+  - first:
+      213: 501921950838610901
+    second: gRangeAttackShatter_19
+  - first:
+      213: -1816974178172630097
+    second: gRangeAttackShatter_20
+  - first:
+      213: 4291765570944661750
+    second: gRangeAttackShatter_21
+  - first:
+      213: -8971050572627560013
+    second: gRangeAttackShatter_22
+  - first:
+      213: -7086317901048885331
+    second: gRangeAttackShatter_23
+  - first:
+      213: 5174301944411281042
+    second: gRangeAttackShatter_24
+  - first:
+      213: 3974742302493379850
+    second: gRangeAttackShatter_25
+  - first:
+      213: -7060405095520140526
+    second: gRangeAttackShatter_26
+  - first:
+      213: -7406048435238760633
+    second: gRangeAttackShatter_27
+  - first:
+      213: -7536315897086842409
+    second: gRangeAttackShatter_28
+  - first:
+      213: 9115934390937425677
+    second: gRangeAttackShatter_29
+  - first:
+      213: -7428083457502074625
+    second: gRangeAttackShatter_30
+  - first:
+      213: -8375036619254107217
+    second: gRangeAttackShatter_31
+  - first:
+      213: 1827037973792406821
+    second: gRangeAttackShatter_32
+  - first:
+      213: 5223986623027082424
+    second: gRangeAttackShatter_33
+  - first:
+      213: -5538284032314807162
+    second: gRangeAttackShatter_34
+  - first:
+      213: 6888711627512499860
+    second: gRangeAttackShatter_35
+  - first:
+      213: 2802811400483772617
+    second: gRangeAttackShatter_36
+  - first:
+      213: 4918029559554542039
+    second: gRangeAttackShatter_37
+  - first:
+      213: -4241486351432595263
+    second: gRangeAttackShatter_38
+  - first:
+      213: 7516970163925836510
+    second: gRangeAttackShatter_39
+  - first:
+      213: 4764122962104305832
+    second: gRangeAttackShatter_40
+  - first:
+      213: -8548943321825025598
+    second: gRangeAttackShatter_41
+  - first:
+      213: -4702574985739378264
+    second: gRangeAttackShatter_42
+  - first:
+      213: 2955765713868315464
+    second: gRangeAttackShatter_43
+  - first:
+      213: 3561558855712040439
+    second: gRangeAttackShatter_44
+  - first:
+      213: 5608110182270414449
+    second: gRangeAttackShatter_45
+  - first:
+      213: 4235272568060136639
+    second: gRangeAttackShatter_46
+  - first:
+      213: 3829744134280807730
+    second: gRangeAttackShatter_47
+  - first:
+      213: 8281078653419030499
+    second: gRangeAttackShatter_48
+  - first:
+      213: 3348542614108808573
+    second: gRangeAttackShatter_49
+  - first:
+      213: 2484032582159454907
+    second: gRangeAttackShatter_50
+  - first:
+      213: 4390896271786777447
+    second: gRangeAttackShatter_51
+  - first:
+      213: 595470706346841737
+    second: gRangeAttackShatter_52
+  - first:
+      213: -5211404031730168622
+    second: gRangeAttackShatter_53
+  - first:
+      213: 2037116325851003658
+    second: gRangeAttackShatter_54
+  - first:
+      213: 4967260521059146456
+    second: gRangeAttackShatter_55
+  - first:
+      213: 8891061859457016785
+    second: gRangeAttackShatter_56
+  - first:
+      213: -8482171469023335959
+    second: gRangeAttackShatter_57
+  - first:
+      213: -4844084377119550854
+    second: gRangeAttackShatter_58
+  - first:
+      213: 7566176055560578938
+    second: gRangeAttackShatter_59
+  - first:
+      213: 8185704690416144487
+    second: gRangeAttackShatter_60
+  - first:
+      213: 363438620439723673
+    second: gRangeAttackShatter_61
+  - first:
+      213: -5486392062191578355
+    second: gRangeAttackShatter_62
+  - first:
+      213: 1234336715491982418
+    second: gRangeAttackShatter_63
+  - first:
+      213: -7478960764381490776
+    second: gRangeAttackShatter_64
+  - first:
+      213: -2249244388622757885
+    second: gRangeAttackShatter_65
+  - first:
+      213: 7316747237554424743
+    second: gRangeAttackShatter_66
+  - first:
+      213: 2661588612493914279
+    second: gRangeAttackShatter_67
+  - first:
+      213: -6007827868182497883
+    second: gRangeAttackShatter_68
+  - first:
+      213: 2021388938247620418
+    second: gRangeAttackShatter_69
+  - first:
+      213: 2007356338416847780
+    second: gRangeAttackShatter_70
+  - first:
+      213: -3639501425064154959
+    second: gRangeAttackShatter_71
+  - first:
+      213: -7324708707652297990
+    second: gRangeAttackShatter_72
+  - first:
+      213: 4398944479172257336
+    second: gRangeAttackShatter_73
+  - first:
+      213: 7973811061847907143
+    second: gRangeAttackShatter_74
+  - first:
+      213: -4352288662593623536
+    second: gRangeAttackShatter_75
+  - first:
+      213: -7887949838217261427
+    second: gRangeAttackShatter_76
+  - first:
+      213: 8841797916550080810
+    second: gRangeAttackShatter_77
+  - first:
+      213: -863378815830388400
+    second: gRangeAttackShatter_78
+  - first:
+      213: -6008828219489765260
+    second: gRangeAttackShatter_79
+  - first:
+      213: 2883989428887690230
+    second: gRangeAttackShatter_80
+  - first:
+      213: 3188842022263118777
+    second: gRangeAttackShatter_81
+  - first:
+      213: -2249948613050230600
+    second: gRangeAttackShatter_82
+  - first:
+      213: -1290451377811807446
+    second: gRangeAttackShatter_83
+  - first:
+      213: 4343850590861487156
+    second: gRangeAttackShatter_84
+  - first:
+      213: -7223029053876056634
+    second: gRangeAttackShatter_85
+  - first:
+      213: -4764644719794572083
+    second: gRangeAttackShatter_86
+  - first:
+      213: -4883316476703579991
+    second: gRangeAttackShatter_87
+  - first:
+      213: -5435771044409348840
+    second: gRangeAttackShatter_88
+  - first:
+      213: 7593391334784870789
+    second: gRangeAttackShatter_89
+  - first:
+      213: 7821779745966164812
+    second: gRangeAttackShatter_90
+  - first:
+      213: -6980102798466460056
+    second: gRangeAttackShatter_91
+  - first:
+      213: -6401864707494712137
+    second: gRangeAttackShatter_92
+  - first:
+      213: 4826521154449976278
+    second: gRangeAttackShatter_93
+  - first:
+      213: -1550880211918256781
+    second: gRangeAttackShatter_94
+  - first:
+      213: -527001862390866428
+    second: gRangeAttackShatter_95
+  - first:
+      213: 5023726896901730916
+    second: gRangeAttackShatter_96
+  - first:
+      213: -7060563391502884382
+    second: gRangeAttackShatter_97
+  - first:
+      213: -1859589065107699809
+    second: gRangeAttackShatter_98
+  - first:
+      213: -4346094469268543778
+    second: gRangeAttackShatter_99
+  - first:
+      213: -5443935027516912283
+    second: gRangeAttackShatter_100
+  - first:
+      213: 2332029551247107289
+    second: gRangeAttackShatter_101
+  - first:
+      213: -2302278040801843240
+    second: gRangeAttackShatter_102
+  - first:
+      213: 6851002637082827951
+    second: gRangeAttackShatter_103
+  - first:
+      213: 2860626580345291668
+    second: gRangeAttackShatter_104
+  - first:
+      213: 4490190437071964603
+    second: gRangeAttackShatter_105
+  - first:
+      213: -2810675716433219229
+    second: gRangeAttackShatter_106
+  - first:
+      213: -8169771253624621301
+    second: gRangeAttackShatter_107
+  - first:
+      213: -4412930014956613589
+    second: gRangeAttackShatter_108
+  - first:
+      213: 8742114921810353155
+    second: gRangeAttackShatter_109
+  - first:
+      213: 3621143490728140933
+    second: gRangeAttackShatter_110
+  - first:
+      213: -7763450158204027160
+    second: gRangeAttackShatter_111
+  - first:
+      213: -2637591781821611914
+    second: gRangeAttackShatter_112
+  - first:
+      213: -8216707196848914183
+    second: gRangeAttackShatter_113
+  - first:
+      213: 1338475800940708829
+    second: gRangeAttackShatter_114
+  - first:
+      213: -3270002871475042814
+    second: gRangeAttackShatter_115
+  - first:
+      213: -6788045135455972555
+    second: gRangeAttackShatter_116
+  - first:
+      213: -1466370122214053577
+    second: gRangeAttackShatter_117
+  - first:
+      213: -1583210649945591152
+    second: gRangeAttackShatter_118
+  - first:
+      213: 2224109235054183355
+    second: gRangeAttackShatter_119
+  - first:
+      213: 6715987399183010602
+    second: gRangeAttackShatter_120
+  - first:
+      213: 5191195800220154048
+    second: gRangeAttackShatter_121
+  - first:
+      213: 5399621551195592172
+    second: gRangeAttackShatter_122
+  - first:
+      213: 2087498843278256340
+    second: gRangeAttackShatter_123
+  - first:
+      213: 8182816652517206472
+    second: gRangeAttackShatter_124
+  - first:
+      213: 3741727642431484099
+    second: gRangeAttackShatter_125
+  - first:
+      213: 2414649867243869726
+    second: gRangeAttackShatter_126
+  - first:
+      213: 2868671554505901325
+    second: gRangeAttackShatter_127
+  - first:
+      213: -4134854816258360235
+    second: gRangeAttackShatter_128
+  - first:
+      213: -4758268633457788972
+    second: gRangeAttackShatter_129
+  - first:
+      213: -6422312193537880158
+    second: gRangeAttackShatter_130
+  - first:
+      213: -7730849367337336872
+    second: gRangeAttackShatter_131
+  - first:
+      213: -950350362028301454
+    second: gRangeAttackShatter_132
+  - first:
+      213: 425432150218772411
+    second: gRangeAttackShatter_133
+  - first:
+      213: 2485289120963450565
+    second: gRangeAttackShatter_134
+  - first:
+      213: -4690713516148191256
+    second: gRangeAttackShatter_135
+  - first:
+      213: -7628667975059503616
+    second: gRangeAttackShatter_136
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gRangeAttackShatter_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 39
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028c51cf90abdad448cc34cf7b25c008
+      internalID: 2838514863713237285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 39
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a8c87f711bf924aa02ca02b5924047
+      internalID: -751885573319717194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 39
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507ea1873d950d64488b5f9a74b7a52b
+      internalID: 405162464767432248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 39
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf078b547a2ed3545b3c90010eabc7d0
+      internalID: 616900791892850695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 39
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c0a275a798474e9e5305f4d6e628d
+      internalID: -3839861284558236621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 39
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa21e9c0c4e9d94e9898f8bbdc15366
+      internalID: 6130515455716155403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 39
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035c730ed8f211346ac38ff1c2138c77
+      internalID: 2586291830697432225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 37
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2f23c11b5f924fb6d43efa9651144
+      internalID: 7115310353500373499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_8
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 37
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f533631d6d2c41a3e099254d693dc
+      internalID: 6898664468477058905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_9
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 37
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0aaa8fa9cfc984b93255f607ca0350
+      internalID: 5747390589119611317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_10
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 34
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d38b6e33a08f31469ac919a6d8ad61c
+      internalID: -2710517668887975235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_11
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 32
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb2313f659d60248bd3166ac88f1a16
+      internalID: -344543671810342516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_12
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 32
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a02d9152d43b541b844b2967d48254
+      internalID: -7020494802776784636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_13
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 30
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fbcc4634098394ca0721a9c76b4bf9
+      internalID: -8165707466072503304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_14
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 27
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd4126d0e12ebb4a882a23bb3d86910
+      internalID: 5184436886777969469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_15
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 27
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565547ac6ff77cf4c9ccd4301d06e44c
+      internalID: -3990698746628754298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_16
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 27
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07da257a5e02edc498a80f3add0ef3f5
+      internalID: 6479628005988448647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_17
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 25
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da10a64de90de44396d38448267c586
+      internalID: 3283308187223426071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_18
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 23
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4c8cbe07d6abd4e86a421b60b9a57e
+      internalID: -487267080339676677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_19
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 23
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2e1bbcb7b548643b274d6d1a6f5283
+      internalID: 501921950838610901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_20
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 21
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b71508f055fc45b1ec98b6796d553
+      internalID: -1816974178172630097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_21
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 21
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259da43217ffa194491152bb5441da0f
+      internalID: 4291765570944661750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_22
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 21
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66656f46d496b245a2b1f12b56fbdec
+      internalID: -8971050572627560013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_23
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 18
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b8b92b185233b4ab9fddb2f601f849
+      internalID: -7086317901048885331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_24
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 18
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed9f02d498696f4a8d317d48c90eeb7
+      internalID: 5174301944411281042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_25
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 16
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c41fc7f2da294eb83bc3784b1f1d3
+      internalID: 3974742302493379850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_26
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 16
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b71ea2ccabedf4cb94a2afa51a96b5
+      internalID: -7060405095520140526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_27
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 14
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de497c921d2acf345a9a2e1a180e1431
+      internalID: -7406048435238760633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_28
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 14
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1ff193bf9c7b549a9fb0d2e2b1439d
+      internalID: -7536315897086842409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_29
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 11
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcddd331d3686d47bc702441f43cf5a
+      internalID: 9115934390937425677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_30
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 11
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c025713991444793a3149b88066f6
+      internalID: -7428083457502074625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_31
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 11
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46afb3dab9f73de45b203f83f91dc8d4
+      internalID: -8375036619254107217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_32
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 11
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227669414b7907c419855028a2d28c35
+      internalID: 1827037973792406821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_33
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 9
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b664ff7242aa20a4f88831b2edf28cb3
+      internalID: 5223986623027082424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_34
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 9
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0875d7da753fec429ba5823525a2ebd
+      internalID: -5538284032314807162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_35
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 14
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c51fa62d6cd0b43b027611f17690f1
+      internalID: 6888711627512499860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_36
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 7
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e787767de1e414f8d2c19d3466032f
+      internalID: 2802811400483772617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_37
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 39
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a6c3cf661772747a0394ae90d3324d
+      internalID: 4918029559554542039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_38
+      rect:
+        serializedVersion: 2
+        x: 3673
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083aacfee8945a240922975cd3e4ddd9
+      internalID: -4241486351432595263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_39
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8cd0d41b10a3347bef6446dc030624
+      internalID: 7516970163925836510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_40
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 57
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6252acf7b6e9fc4c99779d75bca50b5
+      internalID: 4764122962104305832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_41
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 59
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9a7498927c26b448b82a9a92a20847
+      internalID: -8548943321825025598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_42
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 55
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce388b9d8f49a843afd9231d52e8620
+      internalID: -4702574985739378264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_43
+      rect:
+        serializedVersion: 2
+        x: 3781
+        y: 55
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783d184b2bffbf64b8b4ce65865ff64b
+      internalID: 2955765713868315464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_44
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 57
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7308971b2fb683f419cd85b9e3b66033
+      internalID: 3561558855712040439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_45
+      rect:
+        serializedVersion: 2
+        x: 3799
+        y: 59
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749d0eba68e57e34eb323704aec16222
+      internalID: 5608110182270414449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_46
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 53
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed52a4742ecfcf84ab398126570f1634
+      internalID: 4235272568060136639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_47
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 57
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7168de8a464be594daaf6a2fe5e635bc
+      internalID: 3829744134280807730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_48
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 59
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a7a80cd67ad74bac7b51dbc0917fa
+      internalID: 8281078653419030499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_49
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 53
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8a703debbacd749b312b22c8ada9ef
+      internalID: 3348542614108808573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_50
+      rect:
+        serializedVersion: 2
+        x: 3974
+        y: 55
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36183b239b13c3246802b40c0897796f
+      internalID: 2484032582159454907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_51
+      rect:
+        serializedVersion: 2
+        x: 3992
+        y: 59
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49dc73a1992b654eb1b88a0ca89532c
+      internalID: 4390896271786777447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_52
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 57
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d40b90c02b625c49ae19b9479a43b3f
+      internalID: 595470706346841737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_53
+      rect:
+        serializedVersion: 2
+        x: 4183
+        y: 57
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561449c57d8589b4da30c0b4f642f737
+      internalID: -5211404031730168622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_54
+      rect:
+        serializedVersion: 2
+        x: 4279
+        y: 57
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138dae0a3def8f45a05645f79c7a581
+      internalID: 2037116325851003658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_55
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f49462071d50754c91fa9f54b416657
+      internalID: 4967260521059146456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_56
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 53
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c60151d6f558c4e9ab5c482c96cda6
+      internalID: 8891061859457016785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_57
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 53
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad23a42a0d1b44d83e24088af79cf3
+      internalID: -8482171469023335959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_58
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 50
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26867edf40b7a84082087ce40c7396b
+      internalID: -4844084377119550854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_59
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 55
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47e77e588c5a2b43a96a31ee235ed6e
+      internalID: 7566176055560578938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_60
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 53
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a71be17e76f1044b9588d1804f6317
+      internalID: 8185704690416144487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_61
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 55
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e84a05ab39d794d81fa3eaeb30e63a
+      internalID: 363438620439723673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_62
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 53
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9eaf5120e52a640b0d27313cf4cc9b
+      internalID: -5486392062191578355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_63
+      rect:
+        serializedVersion: 2
+        x: 4472
+        y: 55
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5ab25c524ddda448a4e1d0e907e825
+      internalID: 1234336715491982418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_64
+      rect:
+        serializedVersion: 2
+        x: 4566
+        y: 55
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d90c8014c3f7a46a9a6039cfe52429
+      internalID: -7478960764381490776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_65
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 41
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5153731f54472647b3031bad867b8fe
+      internalID: -2249244388622757885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_66
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acc606f0002264ab70c40ecea26249
+      internalID: 7316747237554424743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_67
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 50
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8e233a6c7b6284e86bda759abe1b5c
+      internalID: 2661588612493914279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_68
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 50
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8029720c5c26e274eba8150cb04f9d72
+      internalID: -6007827868182497883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_69
+      rect:
+        serializedVersion: 2
+        x: 4088
+        y: 46
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a7df33189954e45ab17da091f4b826
+      internalID: 2021388938247620418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_70
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 48
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1b3a3a08f4a194e9386f56ce3bfb33
+      internalID: 2007356338416847780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_71
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 50
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73f68ab7730000458411862c21900cd
+      internalID: -3639501425064154959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_72
+      rect:
+        serializedVersion: 2
+        x: 4281
+        y: 48
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863c22c3e3be024488bc9068d15436ee
+      internalID: -7324708707652297990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_73
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 18
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23619c7f238a97745bf100ec2e20eaf1
+      internalID: 4398944479172257336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_74
+      rect:
+        serializedVersion: 2
+        x: 3673
+        y: 39
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9b063ff912d1348a9e3778f2119848
+      internalID: 7973811061847907143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_75
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 46
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255e6e7dcde8eb34d8fff89f58ad2158
+      internalID: -4352288662593623536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_76
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 41
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6509fa8b3252a4993551f3fb8d5adf
+      internalID: -7887949838217261427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_77
+      rect:
+        serializedVersion: 2
+        x: 4568
+        y: 46
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47e67500ea0f549ad120128197aa32
+      internalID: 8841797916550080810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_78
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981be8d1686868c499d2290d94638466
+      internalID: -863378815830388400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_79
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 32
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219b40538e6d54f4a99270092b2ae789
+      internalID: -6008828219489765260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_80
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 39
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2869f7c1970b3246b9cd0a8ca55225d
+      internalID: 2883989428887690230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_81
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 41
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa68ca5fa0fd243a6f387d0f0137cf
+      internalID: 3188842022263118777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_82
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 39
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfd0aaf9bb780d4fbe562dc76cc4293
+      internalID: -2249948613050230600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_83
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 41
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4499b6d597d20724984d202ba1c9474e
+      internalID: -1290451377811807446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_84
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 39
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac69de9ec3dd288469facdbd44104bdb
+      internalID: 4343850590861487156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_85
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 39
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602f5daee5bb252408b80e23a1d02575
+      internalID: -7223029053876056634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_86
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 39
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f159651faad9c94fba9e475fe23503f
+      internalID: -4764644719794572083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_87
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 34
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6983eb0e7266be4468b86b467f0f4fe4
+      internalID: -4883316476703579991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_88
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 34
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714618b6636daf44bf9edc8eb34164f
+      internalID: -5435771044409348840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_89
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 27
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f328b5f522b24d847f50e4864f7ce
+      internalID: 7593391334784870789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_90
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03d0a75e41a3e64f9f4b86907467916
+      internalID: 7821779745966164812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_91
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb0a93fac14dfa48b329b9678ed147f
+      internalID: -6980102798466460056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_92
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 30
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838e1f55f05bb9443a356e6debfbb420
+      internalID: -6401864707494712137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_93
+      rect:
+        serializedVersion: 2
+        x: 4093
+        y: 37
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77d4674531d6bc47bde7ca35e2350ec
+      internalID: 4826521154449976278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_94
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 34
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a609d2ae1ac054091e2d85229335e2
+      internalID: -1550880211918256781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_95
+      rect:
+        serializedVersion: 2
+        x: 4190
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57be23bd812578d47a444b9389d8eb0b
+      internalID: -527001862390866428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_96
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 34
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf8acabf35156143b5f34b1a99ba558
+      internalID: 5023726896901730916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_97
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 27
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be31d96012ada6b40ad116d58021b97e
+      internalID: -7060563391502884382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_98
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab94a21fbe671645b9bd2539490e851
+      internalID: -1859589065107699809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_99
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 37
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80cb2e38cdfa8f46bff6b789bb07ee7
+      internalID: -4346094469268543778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_100
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 7
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6bd533858670f48b07038870b491f0
+      internalID: -5443935027516912283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_101
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 32
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f3d698ff9968499cdec4a3d5a01fe
+      internalID: 2332029551247107289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_102
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856f9e4a74e028b42b6eae041dec80ea
+      internalID: -2302278040801843240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_103
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 32
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccebe49f3a385c46af96b1769c1348f
+      internalID: 6851002637082827951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_104
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 30
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc2db08bad9d945a3adec21bbc88b4
+      internalID: 2860626580345291668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_105
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 30
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5de7fcb123bf2f4383737cab473e99c
+      internalID: 4490190437071964603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_106
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c7bbec0fcd6a243bb0fa5c7e3b3e28
+      internalID: -2810675716433219229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_107
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 30
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fc5ff96b4910e418450487d43fa640
+      internalID: -8169771253624621301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_108
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 27
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bad519ac5d9bdf43b7d6c11c82000b0
+      internalID: -4412930014956613589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_109
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a81d54615d6c2b4ba20bb417709c1f0
+      internalID: 8742114921810353155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_110
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 30
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22cd819b1e1c104cab9864c4b0bfca7
+      internalID: 3621143490728140933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_111
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 30
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30951a4dc4269d94c8a6bbf44f7f2e7a
+      internalID: -7763450158204027160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_112
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 25
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2318401a612d90c469c6717e873df15e
+      internalID: -2637591781821611914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_113
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 27
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847cddb897f2f8a488aca2dda16de313
+      internalID: -8216707196848914183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_114
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 27
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cdb06859a971d4a9e5a52745a39d78
+      internalID: 1338475800940708829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_115
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 23
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade8ad03b18df8c49a42d03d8a12f5f4
+      internalID: -3270002871475042814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_116
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd3af54d5c1b5e44bcb031d35d09d93
+      internalID: -6788045135455972555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_117
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85ea468fa2348b4c824366ef69875b6
+      internalID: -1466370122214053577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_118
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c9a8f89cbf7324c95b3af17673f51b
+      internalID: -1583210649945591152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_119
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb4437d66d7d54fac04cf08944c5ca
+      internalID: 2224109235054183355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_120
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02e95e1da603a4429543bc8fc7f8fc7
+      internalID: 6715987399183010602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_121
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 16
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a5efb1411931e43aaeaf46eff80879
+      internalID: 5191195800220154048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_122
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3351f11145d6c4aa1301720c7e4b88
+      internalID: 5399621551195592172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_123
+      rect:
+        serializedVersion: 2
+        x: 4162
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b4483da1fad8419aa42be9ff4cd64
+      internalID: 2087498843278256340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_124
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7462c60a3407b9b4b91001d59e4ba72a
+      internalID: 8182816652517206472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_125
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 16
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4175e56257619fc4983fa804ceae7cc8
+      internalID: 3741727642431484099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_126
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 9
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027a711a29c82345921107c6161b6a4
+      internalID: 2414649867243869726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_127
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 9
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63c3990d0c7c7b4f8671ac0dd6abc45
+      internalID: 2868671554505901325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_128
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 7
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb411f9e0202ae43b930871fd224b69
+      internalID: -4134854816258360235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_129
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 14
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0560a43cc687040ab098f8d31614cd
+      internalID: -4758268633457788972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_130
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b47307400f303046be97348879cec24
+      internalID: -6422312193537880158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_131
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 7
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fee9de124ecbe409f097014f18b880
+      internalID: -7730849367337336872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_132
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 7
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67386db77798ac448ea660eba753353
+      internalID: -950350362028301454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_133
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 9
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299954bad97b39c408412f398231f34c
+      internalID: 425432150218772411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_134
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c51868a126e1445a44513b7d2b754a
+      internalID: 2485289120963450565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_135
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 7
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeac634c6659fa84c83cade70b99d5f8
+      internalID: -4690713516148191256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gRangeAttackShatter_136
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 5
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400478a22d41ac49a724f84bd696e94
+      internalID: -7628667975059503616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
