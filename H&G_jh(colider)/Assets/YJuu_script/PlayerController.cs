@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rigid2D;          //물리엔진을 통해 움직임 제어 → Rigidbody2D객체생성(힘 계산)
     private float jumpForce = 450.0f;     //점프할 때 가해지는 힘
-    private float walkForce = 50.0f;      //걸을 때 가해지는 힘
+    private float walkForce = 60.0f;      //걸을 때 가해지는 힘
     private float maxWalkSpeed = 3.0f;    //걸을때의 최고속도
     private Vector3 defaultPos = new Vector3(0, 0, 0);       //player의 기본위치
     private string name = "";

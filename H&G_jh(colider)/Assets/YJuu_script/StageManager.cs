@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class StageManager : MonoBehaviour
 {
-    public static StageManager instance;
+    public static StageManager instance = null;
     
     //엔딩 요건들
     private int life = 3;               //플레이어의 생명은 3개
     private int momLife = 3;            //부모님의 생명도 3개(차후 논의를 통해 수정 가능)
     private int dadLife = 3;
-    private bool st04 = false;          //Stage04에 진입했는지 확인
+    private bool lava = false;          //Stage04에 진입했는지 확인
     private bool killWitch = false;     //마녀를 잡았는지 확인
     private int ending = 0;             //엔딩 요건들을 확인해봤을때 이번에 획득한 엔딩
 
@@ -32,7 +32,14 @@ public class StageManager : MonoBehaviour
 
     void Awake()
     {
-        instance = this;
+        if (instance == null)
+            instance = this;
+
+        else if (instance != this)
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject);
+
     }
 
     void Start()
@@ -53,7 +60,7 @@ public class StageManager : MonoBehaviour
             ending = 1;
             GameManager.instance.goEndingScene01();
         }     //부모님의 생명이 둘 다 0이 되면: 엔딩1 "뿌리를 뽑다"
-        else if (st04)                                       //부모님이 죽지 않고
+        else if (lava)                                       //부모님이 죽지 않고
         {
             if (killWitch)
             {
@@ -76,8 +83,13 @@ public class StageManager : MonoBehaviour
   
     public void goNextStage()
     {
-        if (stage == 0){GameManager.instance.goForestScene();}
-        else if (stage == 1) { GameManager.instance.goStage03(); }
+        if (stage == 0) { GameManager.instance.goForestScene(); }
+        else if (stage == 1) { GameManager.instance.goCandyScene(); }
+        else if (stage == 2)
+        {
+            GameManager.instance.goLavaScene();
+            lava = true;
+        }
     }
 
     //각 멤버변수들의 설정자, 접근자
@@ -94,8 +106,6 @@ public class StageManager : MonoBehaviour
     public int getDadLife() { return dadLife; }
 
     public void setDadLife(int dadLife) { this.dadLife = dadLife; }
-
-    public void setSt04(bool st04) { this.st04 = st04; }
 
     public bool getKillWitch() { return killWitch; }
 

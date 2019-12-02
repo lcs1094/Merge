@@ -52,9 +52,9 @@ public class GameManager : MonoBehaviour
 
     public void goForestScene(){SceneManager.LoadScene("ForestScene");}
 
-    public void goStage03(){SceneManager.LoadScene("Stage03");}
+    public void goCandyScene(){SceneManager.LoadScene("CandyScene");}
 
-    public void goStage04(){SceneManager.LoadScene("Stage04");}
+    public void goLavaScene(){SceneManager.LoadScene("LavaScene");}
 
     public void goGallery(){SceneManager.LoadScene("Gallery");}
 
@@ -64,7 +64,9 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "TutorialScene") { return 0; }
         else if (SceneManager.GetActiveScene().name == "ForestScene") { return 1; }
-        else return -1;
+        else if (SceneManager.GetActiveScene().name == "CandyScene") { return 2; }
+        else if (SceneManager.GetActiveScene().name == "LavaScene") { return 3; }
+        else { return -1; }
     }
 
 }

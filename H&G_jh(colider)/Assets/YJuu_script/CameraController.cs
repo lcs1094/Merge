@@ -12,6 +12,11 @@ public class CameraController : MonoBehaviour
     private bool isHansel;
     public GameObject Hansel;
     public GameObject Gretel;
+    public float leftX;
+    public float rightX;
+    public float upY;
+    public float downY;
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +27,7 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        Debug.Log("update");
         getnewPos();
         cameraPos.position = newPos;
     }
@@ -29,15 +35,15 @@ public class CameraController : MonoBehaviour
     void getnewPos()
     {
         nowPlayer();
-        if (player.position.x < -43.5f) { posX = -43.5f; }
-        else if (player.position.x > 56.5f) { posX = 56.5f; }
+        if (player.position.x < leftX) { posX = leftX; }
+        else if (player.position.x > rightX) { posX = rightX; }
         else { posX = player.position.x; }
-        if (player.position.y > 1) { posY = 1; }
-        else if (player.position.y < -1) { posY = -1; }
+        if (player.position.y > upY) { posY = upY; }
+        else if (player.position.y < downY) { posY = downY; }
         else { posY = player.position.y; }
 
         newPos = new Vector3(posX, posY, -10);
-
+        
     }
 
     void nowPlayer()

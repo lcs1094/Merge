@@ -47,7 +47,6 @@ public class Witchs_Monster : MonoBehaviour
     }
     void Die(){
         isDead = true;
-        My_SpwanZone.GetComponent<Monster_Spwanzone>().Monster_State(isDead);
         int drop = Random.Range(0,10);
         if(drop >= 8){
             GameObject item = Instantiate(portion) as GameObject;
@@ -126,7 +125,7 @@ public class Witchs_Monster : MonoBehaviour
         if(isdetect){
             Vector3 playerPos = detectedTarget.transform.position;
             moveVelocity = (playerPos - this.transform.position).normalized;
-            }
+        }
     }
 }
 
