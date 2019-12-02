@@ -10,6 +10,9 @@ public class Monster_Spwanzone : MonoBehaviour
     bool istime = false;
     public GameObject Monster;
     GameObject Spwaned_Monster;
+    public void Monster_State(bool sd){
+        this.isDead = sd;
+    }
     void OnTriggerEnter2D(Collider2D col){
         if(col.gameObject.tag == "Monster"){
             Spwaned_Monster = col.gameObject;
@@ -18,7 +21,7 @@ public class Monster_Spwanzone : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D col){
         if(col.gameObject.tag == "Monster"){
-            Debug.Log("Zone Out!");
+            //Debug.Log("Zone Out!");
             col.gameObject.GetComponent<Monster>().Zone_Out();
         }
     }
@@ -30,7 +33,8 @@ public class Monster_Spwanzone : MonoBehaviour
         pos.x += x;
         GameObject Spwan_Monster = Instantiate(Monster) as GameObject;
         Spwan_Monster.transform.position = pos;
-        isDead = Spwaned_Monster.GetComponent<Monster>().isDead;
+        Spwan_Monster.GetComponent<Monster>().Set_SpwanZone(this.gameObject);
+        isDead = false;
     }
 
     // Update is called once per frame
@@ -48,7 +52,7 @@ public class Monster_Spwanzone : MonoBehaviour
             GameObject Spwan_Monster = Instantiate(Monster) as GameObject;
             Spwan_Monster.transform.position = this.transform.position;
             isDead = false;
-            Spwaned_Monster.GetComponent<Monster>().Set_SpwanZone(this.gameObject);
+            Spwan_Monster.GetComponent<Monster>().Set_SpwanZone(this.gameObject);
         }
     }
 }

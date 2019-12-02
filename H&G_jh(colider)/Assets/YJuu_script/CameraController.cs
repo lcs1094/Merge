@@ -9,7 +9,6 @@ public class CameraController : MonoBehaviour
     private Vector3 newPos;
     private float posX;
     private float posY;
-    private GameObject stageManager;
     private bool isHansel;
     public GameObject Hansel;
     public GameObject Gretel;
@@ -18,7 +17,6 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         cameraPos = GetComponent<Transform>();  // 카메라에 Transform 컴포넌트 적용
-        this.stageManager = GameObject.FindWithTag("StageManager");
     }
 
     // Update is called once per frame
@@ -44,7 +42,7 @@ public class CameraController : MonoBehaviour
 
     void nowPlayer()
     {
-        isHansel = stageManager.GetComponent<StageManager>().getIsHansel();
+        isHansel = StageManager.instance.getIsHansel();
         if (isHansel) { player = Hansel.transform; }
         else { player = Gretel.transform; }
     }

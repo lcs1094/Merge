@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StageManager : MonoBehaviour
 {
+    public static StageManager instance;
+    
     //엔딩 요건들
     private int life = 3;               //플레이어의 생명은 3개
     private int momLife = 3;            //부모님의 생명도 3개(차후 논의를 통해 수정 가능)
@@ -20,27 +22,27 @@ public class StageManager : MonoBehaviour
     private bool GSkill02 = false;            //그레텔의 2번 스킬이 사용되었는지
     private bool go = false;
     private int stage = 0;
+    private bool changeCoolOver = true;      //캐릭터 변환 쿨타임이 끝났는지(T:쿨타임 끝=변경 가능)
 
     //빵가루와 관련된 변수들
     private int bread = 0;                //모은 빵가루의 개수
-    private bool allBread = false;     //빵가루를 다 모았는지 여부를 확인
+    private bool allBread = false;        //빵가루를 다 모았는지 여부를 확인
 
-    public GameObject GameManager;       //Scene간 이동을 위해 GameManager객체 생성
     private bool sceneChanged = false;
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);     //전체를 총괄하는 오브젝트이므로 사라지지 않음
+        instance = this;
     }
 
     void Start()
     {
-        //this.GameManager = GameObject.FindWithTag("GameManager");     //GameManger객체를 Tag를 통해 찾아옴
+        
     }
 
     void Update()
     {
-        stage = GameManager.GetComponent<GameManager>().getSceneNum();
+        stage = GameManager.instance.getSceneNum();
     }
 
     //엔딩 요건들을 확인하여 획득한 엔딩이 있는지 확인
@@ -49,33 +51,33 @@ public class StageManager : MonoBehaviour
         if(momLife == 0 && dadLife == 0)
         {
             ending = 1;
-            GameManager.GetComponent<GameManager>().goEndingScene01();
+            GameManager.instance.goEndingScene01();
         }     //부모님의 생명이 둘 다 0이 되면: 엔딩1 "뿌리를 뽑다"
         else if (st04)                                       //부모님이 죽지 않고
         {
             if (killWitch)
             {
                 ending = 3;
-                GameManager.GetComponent<GameManager>().goEndingScene03();
+                GameManager.instance.goEndingScene03();
             }                   //Stage04에 진입하고, 마녀를 처치했으면: 엔딩3 "금의환향"
             else if (life == 0)
             {
                 ending = 4;
-                GameManager.GetComponent<GameManager>().goEndingScene04();
+                GameManager.instance.goEndingScene04();
             }              //Stage04에 진입했지만, 마녀를 처치하지 못하고 생명이 0이 되면: 엔딩4 "좋은 단백질 공급원"
         }
         else if(life == 0)
         {
             ending = 2;
-            GameManager.GetComponent<GameManager>().goEndingScene02();
+            GameManager.instance.goEndingScene02();
         }                   //부모님이 죽지않고 Stage04에 진입하지 못했지만 생명이 0이 되면: 엔딩2 "우린 영원히 함께"
-        GameManager.GetComponent<GameManager>().findEnding(ending);     //엔딩을 획득했으면 StageManager의 endings의 해당엔딩을 true로 바꿈
+        GameManager.instance.findEnding(ending);     //엔딩을 획득했으면 StageManager의 endings의 해당엔딩을 true로 바꿈
     }
   
     public void goNextStage()
     {
-        if (stage == 0){GameManager.GetComponent<GameManager>().goForestScene();}
-        else if (stage == 1) { GameManager.GetComponent<GameManager>().goStage03(); }
+        if (stage == 0){GameManager.instance.goForestScene();}
+        else if (stage == 1) { GameManager.instance.goStage03(); }
     }
 
     //각 멤버변수들의 설정자, 접근자
@@ -105,9 +107,19 @@ public class StageManager : MonoBehaviour
 
     public void setIsHansel()
     {
-        if (isHansel) { isHansel = false; }
-        else { isHansel = true; }
+        if (changeCoolOver)
+        {
+            if (isHansel) { isHansel = false; }
+            else { isHansel = true; }
+        }
     }
+
+    public void setChangeCoolOver(bool coolOver)
+    {
+        this.changeCoolOver = coolOver;
+    }
+
+    public bool getChangeCoolOver() { return changeCoolOver; }
 
     public void addBread()
     {

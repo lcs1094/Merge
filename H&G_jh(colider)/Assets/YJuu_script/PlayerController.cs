@@ -9,14 +9,13 @@ public class PlayerController : MonoBehaviour
     private float walkForce = 50.0f;      //걸을 때 가해지는 힘
     private float maxWalkSpeed = 3.0f;    //걸을때의 최고속도
     private Vector3 defaultPos = new Vector3(0, 0, 0);       //player의 기본위치
-    private GameObject StageManager;          //GameDirector의 함수를 사용할것이므로 객체 생성
     private string name = "";
     private bool isGrounded = false;
     private int jumpCount = 2;
     private bool isRope = false;
     private Animator animator;
     public GameObject GSkill02;
-    private bool canMove = true;
+    public bool canMove = true;
     private float delta = 0;
     private float SkillTime = 6;
 
@@ -24,7 +23,6 @@ public class PlayerController : MonoBehaviour
     {
         this.animator = gameObject.GetComponent<Animator>();
         this.rigid2D = gameObject.GetComponent<Rigidbody2D>();
-        this.StageManager = GameObject.FindWithTag("StageManager");
         this.name = gameObject.name;
         jumpCount = 0;
     }
@@ -41,7 +39,6 @@ public class PlayerController : MonoBehaviour
             jumpKeyInput();
         }
         else Timer();
-        Debug.Log(delta);
     }
 
     private void checkFall()
@@ -54,13 +51,13 @@ public class PlayerController : MonoBehaviour
 
     private void goKeyInput()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            StageManager.GetComponent<StageManager>().setGo(true);
+            StageManager.instance.setGo(true);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.UpArrow))
         {
-            StageManager.GetComponent<StageManager>().setGo(false);
+            StageManager.instance.setGo(false);
         }
     }
 
@@ -68,7 +65,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.F))
         {
-            StageManager.GetComponent<StageManager>().setIsHansel();
+            if (jumpCount==2)
+            {
+                StageManager.instance.setIsHansel();
+            }
         }
     }
 
@@ -77,12 +77,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.A))
         {
             animator.SetBool("Skill01", true);
-            StageManager.GetComponent<StageManager>().usedSkill01(name);
+            StageManager.instance.usedSkill01(name);
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
             animator.SetBool("Skill02", true);
-            StageManager.GetComponent<StageManager>().usedSkill02(name);
+            StageManager.instance.usedSkill02(name);
             if (name == "Gretel")
             {
                 Instantiate(GSkill02);
@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
         {
             if (jumpCount > 0)
             {
-                if (Input.GetKeyDown(KeyCode.UpArrow))
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
                     this.rigid2D.AddForce(transform.up * this.jumpForce);
                     jumpCount--;
