@@ -14,10 +14,12 @@ public class PlayerController : MonoBehaviour
     private int jumpCount = 2;
     private bool isRope = false;
     private Animator animator;
-    public GameObject GSkill02;
+    public GameObject Skill01;
+    public GameObject Skill02;
     public bool canMove = true;
-    private float delta = 0;
-    private float SkillTime = 6;
+    private int key = 0;
+    private float HealDelta = 0;
+    private float Delta = 0;
 
     void Awake()
     {
@@ -29,7 +31,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        checkFall();
         if (canMove)
         {
             changeKeyInput();
@@ -38,17 +39,9 @@ public class PlayerController : MonoBehaviour
             skillKeyInput();
             jumpKeyInput();
         }
-        else Timer();
+        else { HealTimer(); }
     }
-
-    private void checkFall()
-    {
-        if (transform.position.y < -6)
-        {
-            transform.localPosition = defaultPos;          //player를 기본위치로 이동
-        }
-    }
-
+    
     private void goKeyInput()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -77,31 +70,45 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.A))
         {
             animator.SetBool("Skill01", true);
-            StageManager.instance.usedSkill01(name);
+            GameObject skill01 = Instantiate(Skill01) as GameObject;
+            StageManager.instance.usedSkill02(name);
+            skill01.GetComponent<SkillController>().Skill01(name, transform.position, key);
+            StartCoroutine(Timer("Skill01"));
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
             animator.SetBool("Skill02", true);
+            GameObject skill02 = Instantiate(Skill02) as GameObject;
             StageManager.instance.usedSkill02(name);
-            if (name == "Gretel")
-            {
-                Instantiate(GSkill02);
-                canMove = false;
-            }
+            if (name == "Gretel") { canMove = false; }
+            else { StartCoroutine(Timer("Skill02")); }
+            skill02.GetComponent<SkillController>().Skill02(name, transform.position, key);
         }
     }
 
-    private void Timer()
+    private IEnumerator Timer(string skill)
     {
-        delta += Time.deltaTime;    // 스킬 생성 이후 Time Ticks
-        if (delta > SkillTime)      // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
+        Delta = 0;
+        while(Delta < 0.03f)
+        {
+            Delta += 0.01f;
+            yield return new WaitForSeconds(.01f);
+        }
+        animator.SetBool(skill, false);
+    }
+
+    private void HealTimer()
+    {
+        HealDelta += Time.deltaTime;    // 스킬 생성 이후 Time Ticks
+        Debug.Log(HealDelta);
+        if (HealDelta >= 2)      // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
         {
             canMove = true;
-            delta = 0;
+            HealDelta = 0;
             animator.SetBool("Skill02", false);
         }
     }
-
+    
     private void jumpKeyInput()
     {
         if (isGrounded)

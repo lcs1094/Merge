@@ -41,11 +41,19 @@ public class UIDirector : MonoBehaviour
             characterChangeFunc();
         }
     }
-    /*
-    private void characterCoolTime()
+/*
+    private IEnumerator characterCoolTime(Image img, float coolTime)
     {
-        float delta;
-        float leftTIme = 3.0f;
+        float leftTIme = coolTime;
+        float delta = 0;
+
+        while (img.fillAmount < 1)
+        {
+            delta = Time.deltaTime;
+            img.fillAmount = 1 * Time.smoothDeltaTime / coolTime;
+
+            yield return null;
+        }
         if (!characterCoolOver)
         {
             delta = Time.deltaTime;

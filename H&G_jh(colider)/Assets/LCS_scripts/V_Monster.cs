@@ -10,6 +10,8 @@ public class V_Monster : MonoBehaviour
     Vector3 movement; // 오브젝트 움직임 좌표
     //GameObject Throwing; // 주인공 오브젝트의 공격 스킬 오브젝트(복사해서 사용)
     public int maxHealth = 100;
+    public float width = 2.0f;
+    public float height = 2.0f;
     public bool isDead;
     bool isHit = false;
     int Health;
@@ -50,10 +52,10 @@ public class V_Monster : MonoBehaviour
     void move(){
         transform.position += moveVelocity * speed * Time.deltaTime;
         if(moveVelocity.x > 0){
-            transform.localScale = new Vector3(-2, 2, 1);
+            transform.localScale = new Vector3(-width, height, 1);
         }
         else{
-            transform.localScale = new Vector3(2, 2, 1);
+            transform.localScale = new Vector3(width, height, 1);
         }
     }
     void Die(){
