@@ -59,6 +59,7 @@ public class Normal_Monster : MonoBehaviour
             GameObject item = Instantiate(portion) as GameObject;
             item.transform.position = this.transform.position;
         }
+        Debug.Log("Die");
         Destroy(this.gameObject); // 몬스터 오브젝트 삭제
     }
     void OnCollisionEnter2D(Collision2D col){

@@ -5,11 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private bool[] endings = new bool[5];     //엔딩을 획득했는지 확인(true면 획득한 엔딩)
+    public static GameManager instance = null;
+    public bool[] endings = new bool[5];     //엔딩을 획득했는지 확인(true면 획득한 엔딩)
+    public bool firstStart = false;
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);     //전체를 총괄하는 오브젝트이므로 사라지지 않음
+        if (instance == null)
+            instance = this;
+
+        else if (instance != this)
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject);
+        
     }
 
     void Start()
@@ -23,6 +32,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
+   
 
     //획득한 엔딩번호를 매개변수로 받아 획득여부를 true로 바꿈
     public void findEnding(int endingNum){this.endings[endingNum] = true; }
@@ -58,4 +68,3 @@ public class GameManager : MonoBehaviour
     }
 
 }
-

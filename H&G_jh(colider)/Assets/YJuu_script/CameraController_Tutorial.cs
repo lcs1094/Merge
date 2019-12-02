@@ -31,8 +31,8 @@ public class CameraController_Tutorial : MonoBehaviour
     void getnewPos()
     {
         nowPlayer();
-        if (player.position.x < -1.8f) { posX = -1.8f; }
-        else if (player.position.x > 1.8f) { posX = 1.8f; }
+        if (player.position.x < -19.0f) { posX = -19.0f; }
+        else if (player.position.x > 1.5f) { posX = 1.5f; }
         else { posX = player.position.x; }
         if (player.position.y > 1) { posY = 1; }
         else if (player.position.y < -1) { posY = -1; }
