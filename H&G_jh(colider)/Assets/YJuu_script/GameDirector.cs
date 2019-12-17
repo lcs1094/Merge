@@ -4,52 +4,60 @@ using UnityEngine;
 
 public class GameDirector : MonoBehaviour
 {
-    /* 안쓰이는 스크립트
-    private Vector3 defaultPosSt01 = new Vector3(0, 0, 0);
-    private Vector3 defaultPosSt02 = new Vector3(-50, 0, 0);
-    private GameObject stageManager;
-    private GameObject player;
-    private bool isHansel;
-    private int stage;
-    private bool sceneChanged;
+    public Camera StartCamera;
+    public Camera MainCamera;
     public GameObject Hansel;
-    public GameObject Gretel;
+    private float SCPosX;
 
     // Start is called before the first frame update
     void Start()
     {
-        stageManager = GameObject.FindWithTag("StageManager");
+        startFunc();
     }
 
     // Update is called once per frame
     void Update()
     {
-        sceneStart();
+
     }
 
-    void sceneStart()
+    private void startFunc()
     {
-        sceneChanged = stageManager.GetComponent<StageManager>().getSceneChanged();
-        if (sceneChanged)
+        if (GameManager.instance.firstStart)
         {
-            nowPlayer();
-            movePlayer();
-            stageManager.GetComponent<StageManager>().setSceneChanged(false);
+            setStartCamera();
+            Hansel.GetComponent<PlayerController>().canMove = false;
+            StartCoroutine("firstCameraMove");
+
+        }
+        else
+        {
+            setMainCamera();
         }
     }
 
-    void movePlayer()
+    private IEnumerator firstCameraMove()
     {
-        stage = stageManager.GetComponent<StageManager>().getStage();
-        Debug.Log(stage);
-        if (stage == 0) { player.transform.position = defaultPosSt01; Debug.Log("st01"); }
-        else if (stage == 1) { player.transform.position = defaultPosSt02; Debug.Log("st02"); }
+        SCPosX = StartCamera.transform.position.x;
+        while (SCPosX > -19)
+        {
+            SCPosX = StartCamera.transform.position.x - 0.1f;
+            StartCamera.transform.position = new Vector3(SCPosX, 0, -10);
+            yield return new WaitForSeconds(.02f);
+        }
+        setMainCamera();
+        Hansel.GetComponent<PlayerController>().canMove = true;
     }
 
-    void nowPlayer()
+    private void setStartCamera()
     {
-        isHansel = stageManager.GetComponent<StageManager>().getIsHansel();
-        if (isHansel) { player = Hansel; Debug.Log("Hansel"); }
-        else { player = Gretel; Debug.Log("Gretel"); }
-    }*/
+        MainCamera.enabled = false;
+        StartCamera.enabled = true;
+    }
+
+    private void setMainCamera()
+    {
+        MainCamera.enabled = true;
+        StartCamera.enabled = false;
+    }
 }

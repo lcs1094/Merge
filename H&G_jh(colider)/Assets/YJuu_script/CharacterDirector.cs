@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterDirector : MonoBehaviour
 {
     private float delta = 0.0f;       //흐른시간
-    private float coolTime = 2.0f;
+    private float coolTime = 3.0f;
     private bool coolOver = true;
     private bool IsHansel = true;
     private bool nowHansel = true;
@@ -15,12 +15,10 @@ public class CharacterDirector : MonoBehaviour
     public GameObject Gretel;
     Vector3 nowPos = new Vector3(0, 0, 0);
     Vector3 defaultPos = new Vector3(0, 0, 0);
-    private GameObject StageManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.StageManager = GameObject.FindWithTag("StageManager");
         nowPlayer = Hansel;
         Hansel.SetActive(true);
         Gretel.SetActive(false);
@@ -30,7 +28,7 @@ public class CharacterDirector : MonoBehaviour
     void Update()
     {
 
-        this.IsHansel = StageManager.GetComponent<StageManager>().getIsHansel();
+        this.IsHansel = StageManager.instance.getIsHansel();
         timer();
     }
 
@@ -39,15 +37,12 @@ public class CharacterDirector : MonoBehaviour
         if (!coolOver)
         {
             delta += Time.deltaTime;       //흐른 시간을 delta에 저장
-            if ((IsHansel && !nowHansel) || (!IsHansel && nowHansel))
-            {
-                StageManager.GetComponent<StageManager>().setIsHansel();
-            }
+            
             if (coolTime - delta < 0)
-                if (coolTime - delta < 0)
             {
                 delta = 0.0f;
                 coolOver = true;
+                StageManager.instance.setChangeCoolOver(true);
             }
         }
         else { changeCharacter(); }
@@ -58,6 +53,7 @@ public class CharacterDirector : MonoBehaviour
         if ((IsHansel && !nowHansel) || (!IsHansel && nowHansel))
         {
             changeFunc();
+            StageManager.instance.setChangeCoolOver(false);
         }
     }
 
@@ -79,16 +75,15 @@ public class CharacterDirector : MonoBehaviour
         if (IsHansel)
         {
             newPlayer = Hansel;
-            newPlayer.SetActive(true);
             nowHansel = true;
         }
         else
         {
             newPlayer = Gretel;
-            newPlayer.SetActive(true);
             nowHansel = false;
         }
         newPlayer.transform.position = nowPos;
         nowPlayer = newPlayer;
+        nowPlayer.SetActive(true);
     }
 }

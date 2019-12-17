@@ -5,11 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private bool[] endings = new bool[5];     //엔딩을 획득했는지 확인(true면 획득한 엔딩)
+    public static GameManager instance = null;
+    public bool[] endings = new bool[5];     //엔딩을 획득했는지 확인(true면 획득한 엔딩)
+    public bool firstStart = false;
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);     //전체를 총괄하는 오브젝트이므로 사라지지 않음
+        if (instance == null)
+            instance = this;
+
+        else if (instance != this)
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject);
+        
     }
 
     void Start()
@@ -23,6 +32,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
+   
 
     //획득한 엔딩번호를 매개변수로 받아 획득여부를 true로 바꿈
     public void findEnding(int endingNum){this.endings[endingNum] = true; }
@@ -42,9 +52,9 @@ public class GameManager : MonoBehaviour
 
     public void goForestScene(){SceneManager.LoadScene("ForestScene");}
 
-    public void goStage03(){SceneManager.LoadScene("Stage03");}
+    public void goCandyScene(){SceneManager.LoadScene("CandyScene");}
 
-    public void goStage04(){SceneManager.LoadScene("Stage04");}
+    public void goLavaScene(){SceneManager.LoadScene("LavaScene");}
 
     public void goGallery(){SceneManager.LoadScene("Gallery");}
 
@@ -54,8 +64,9 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "TutorialScene") { return 0; }
         else if (SceneManager.GetActiveScene().name == "ForestScene") { return 1; }
-        else return -1;
+        else if (SceneManager.GetActiveScene().name == "CandyScene") { return 2; }
+        else if (SceneManager.GetActiveScene().name == "LavaScene") { return 3; }
+        else { return -1; }
     }
 
 }
-

@@ -9,21 +9,25 @@ public class CameraController : MonoBehaviour
     private Vector3 newPos;
     private float posX;
     private float posY;
-    private GameObject stageManager;
     private bool isHansel;
     public GameObject Hansel;
     public GameObject Gretel;
+    public float leftX;
+    public float rightX;
+    public float upY;
+    public float downY;
+
 
     // Start is called before the first frame update
     void Start()
     {
         cameraPos = GetComponent<Transform>();  // 카메라에 Transform 컴포넌트 적용
-        this.stageManager = GameObject.FindWithTag("StageManager");
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
+        Debug.Log("update");
         getnewPos();
         cameraPos.position = newPos;
     }
@@ -31,20 +35,20 @@ public class CameraController : MonoBehaviour
     void getnewPos()
     {
         nowPlayer();
-        if (player.position.x < -43.5f) { posX = -43.5f; }
-        else if (player.position.x > 56.5f) { posX = 56.5f; }
+        if (player.position.x < leftX) { posX = leftX; }
+        else if (player.position.x > rightX) { posX = rightX; }
         else { posX = player.position.x; }
-        if (player.position.y > 1) { posY = 1; }
-        else if (player.position.y < -1) { posY = -1; }
+        if (player.position.y > upY) { posY = upY; }
+        else if (player.position.y < downY) { posY = downY; }
         else { posY = player.position.y; }
 
         newPos = new Vector3(posX, posY, -10);
-
+        
     }
 
     void nowPlayer()
     {
-        isHansel = stageManager.GetComponent<StageManager>().getIsHansel();
+        isHansel = StageManager.instance.getIsHansel();
         if (isHansel) { player = Hansel.transform; }
         else { player = Gretel.transform; }
     }

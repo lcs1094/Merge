@@ -7,32 +7,18 @@ public class SkillController : MonoBehaviour
     private int direction = 0;
     private Vector3 playerPos = new Vector3(0, 0, 0);
     private float delta = 0;
-    private int skillTimer = 6;
-    private string tag = "";
-    private GameObject Player;
+    private string Tag = "";
 
     // Start is called before the first frame update
     void Start()
     {
-        this.tag = gameObject.tag;
-        Player = GameObject.FindWithTag("Player");
-        Debug.Log(Player.name);
-        this.transform.position = Player.transform.position;
-        setPosition();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        skillType();
-    }
-
-    private void skillType()
-    {
-        if(tag == "GSkill02")
-        {
-            Timer();
-        }
+        
     }
 
     void OnTriggerStay2D(Collider2D col)
@@ -45,11 +31,56 @@ public class SkillController : MonoBehaviour
         }
     }
 
-    private void Timer()
+    public void Skill01(string name, Vector3 playerPos, int key)
     {
-        delta += Time.deltaTime;     // 스킬 생성 이후 Time Ticks
-        if (delta > skillTimer)      // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
-            Destroy(gameObject);     // 스킬 오브젝트 파괴
+        if (name == "Hansel") { HSkill01(playerPos, .6f, key); }
+        else if (name == "Gretel") { GSkill01(playerPos, 1.5f, key); }
+    }
+
+    public void Skill02(string name, Vector3 playerPos,int key)
+    {
+        if (name == "Hansel") { HSkill02(playerPos, 0.6f, key); }
+        else if (name == "Gretel") { GSkill02(playerPos, 2, key); }
+    }
+    
+
+    private void HSkill01(Vector3 playerPos,float skillTime,int key)
+    {
+        StartCoroutine(Timer(skillTime));
+        setPlayerPos(playerPos);
+        setPosition();
+    }
+
+    private void HSkill02(Vector3 playerPos,float skillTime, int key)
+    {
+        StartCoroutine(Timer(skillTime));
+        setPlayerPos(playerPos);
+        setPosition();
+    }
+
+    private void GSkill01(Vector3 playerPos,float skillTime, int key)
+    {
+        StartCoroutine(Timer(skillTime));
+        setPlayerPos(playerPos);
+        setPosition();
+    }
+
+    private void GSkill02(Vector3 playerPos,float skillTime, int key)
+    {
+        StartCoroutine(Timer(skillTime));
+        setPlayerPos(playerPos);
+        setPosition();
+    }
+
+    private IEnumerator Timer(float skillTime)
+    {
+        while (delta < skillTime)       // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
+        {
+            delta += 0.1f;
+            yield return new WaitForSeconds(.1f);
+        }
+        Destroy(gameObject);     // 스킬 오브젝트 파괴
+        Debug.Log("end");
     }
 
     private void skillMove()
@@ -58,19 +89,19 @@ public class SkillController : MonoBehaviour
         if (direction != 0) transform.localScale = new Vector3(direction, 1, 1);  //key값(눌린 방향키가 어떤 방향키인지)에 따라 player의 모양을 바꿈
     }
 
-    public void setDirection(int direction)
+    private void setDirection(int direction)
     {
         this.direction = direction;
     }
 
-    public void setPlayerPos()
+    private void setPlayerPos(Vector3 playerPos)
     {
-        this.playerPos = Player.transform.position;
+        this.playerPos = playerPos;
     }
 
     private void setPosition()
     {
-        this.transform.position = Player.transform.position;
+        this.transform.position = playerPos;
         this.transform.Translate(new Vector3(0, 1, 0));
     }
 }

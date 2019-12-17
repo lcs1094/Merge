@@ -6,32 +6,31 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rigid2D;          //물리엔진을 통해 움직임 제어 → Rigidbody2D객체생성(힘 계산)
     private float jumpForce = 450.0f;     //점프할 때 가해지는 힘
-    private float walkForce = 50.0f;      //걸을 때 가해지는 힘
+    private float walkForce = 60.0f;      //걸을 때 가해지는 힘
     private float maxWalkSpeed = 3.0f;    //걸을때의 최고속도
     private Vector3 defaultPos = new Vector3(0, 0, 0);       //player의 기본위치
-    private GameObject StageManager;          //GameDirector의 함수를 사용할것이므로 객체 생성
     private string name = "";
     private bool isGrounded = false;
     private int jumpCount = 2;
     private bool isRope = false;
     private Animator animator;
-    public GameObject GSkill02;
-    private bool canMove = true;
-    private float delta = 0;
-    private float SkillTime = 6;
+    public GameObject Skill01;
+    public GameObject Skill02;
+    public bool canMove = true;
+    private int key = 0;
+    private float HealDelta = 0;
+    private float Delta = 0;
 
     void Awake()
     {
         this.animator = gameObject.GetComponent<Animator>();
         this.rigid2D = gameObject.GetComponent<Rigidbody2D>();
-        this.StageManager = GameObject.FindWithTag("StageManager");
         this.name = gameObject.name;
         jumpCount = 0;
     }
 
     void Update()
     {
-        checkFall();
         if (canMove)
         {
             changeKeyInput();
@@ -40,27 +39,18 @@ public class PlayerController : MonoBehaviour
             skillKeyInput();
             jumpKeyInput();
         }
-        else Timer();
-        Debug.Log(delta);
+        else { HealTimer(); }
     }
-
-    private void checkFall()
-    {
-        if (transform.position.y < -6)
-        {
-            transform.localPosition = defaultPos;          //player를 기본위치로 이동
-        }
-    }
-
+    
     private void goKeyInput()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            StageManager.GetComponent<StageManager>().setGo(true);
+            StageManager.instance.setGo(true);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.UpArrow))
         {
-            StageManager.GetComponent<StageManager>().setGo(false);
+            StageManager.instance.setGo(false);
         }
     }
 
@@ -68,7 +58,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.F))
         {
-            StageManager.GetComponent<StageManager>().setIsHansel();
+            if (jumpCount==2)
+            {
+                StageManager.instance.setIsHansel();
+            }
         }
     }
 
@@ -77,38 +70,52 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.A))
         {
             animator.SetBool("Skill01", true);
-            StageManager.GetComponent<StageManager>().usedSkill01(name);
+            GameObject skill01 = Instantiate(Skill01) as GameObject;
+            StageManager.instance.usedSkill02(name);
+            skill01.GetComponent<SkillController>().Skill01(name, transform.position, key);
+            StartCoroutine(Timer("Skill01"));
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
             animator.SetBool("Skill02", true);
-            StageManager.GetComponent<StageManager>().usedSkill02(name);
-            if (name == "Gretel")
-            {
-                Instantiate(GSkill02);
-                canMove = false;
-            }
+            GameObject skill02 = Instantiate(Skill02) as GameObject;
+            StageManager.instance.usedSkill02(name);
+            if (name == "Gretel") { canMove = false; }
+            else { StartCoroutine(Timer("Skill02")); }
+            skill02.GetComponent<SkillController>().Skill02(name, transform.position, key);
         }
     }
 
-    private void Timer()
+    private IEnumerator Timer(string skill)
     {
-        delta += Time.deltaTime;    // 스킬 생성 이후 Time Ticks
-        if (delta > SkillTime)      // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
+        Delta = 0;
+        while(Delta < 0.03f)
+        {
+            Delta += 0.01f;
+            yield return new WaitForSeconds(.01f);
+        }
+        animator.SetBool(skill, false);
+    }
+
+    private void HealTimer()
+    {
+        HealDelta += Time.deltaTime;    // 스킬 생성 이후 Time Ticks
+        Debug.Log(HealDelta);
+        if (HealDelta >= 2)      // 스킬이 생성된 이후 스킬 지속시간만큼 흘렀으면 (스킬 지속시간이 끝났으면)
         {
             canMove = true;
-            delta = 0;
+            HealDelta = 0;
             animator.SetBool("Skill02", false);
         }
     }
-
+    
     private void jumpKeyInput()
     {
         if (isGrounded)
         {
             if (jumpCount > 0)
             {
-                if (Input.GetKeyDown(KeyCode.UpArrow))
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
                     this.rigid2D.AddForce(transform.up * this.jumpForce);
                     jumpCount--;
