@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameDirector
+  - StageManager
+  - Monster
+  - Director
+  - GameManager
+  - Ground
+  - HSkill01
+  - HSkill02
+  - GSkill01
+  - GSkill02
+  - Witch
+  - Witch_Zone
+  - Monster_Zone
+  - Monster_Skill
+  - Witch_Ulti
+  - Ladder
+  - Witch1_Skill
+  - Witch2_Skill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Mop
+  - Skills
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: on
+    uniqueID: 208229171
+    locked: 0
+  - name: lavaBackground
+    uniqueID: 4079666347
+    locked: 0

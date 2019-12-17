@@ -1,0 +1,26 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MainDirector : MonoBehaviour
+{
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void goLoad() { GameManager.instance.goLoadScene(); }
+
+    public void goGallery(){GameManager.instance.goGalleryScene(); }
+
+    public void Quit() { GameManager.instance.Quit(); }
+}
