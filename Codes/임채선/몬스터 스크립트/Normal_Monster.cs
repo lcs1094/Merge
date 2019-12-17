@@ -14,7 +14,7 @@ public class Normal_Monster : MonoBehaviour
     public int maxHealth = 100;
     bool isDead = false;
     bool isHit = false;
-    int Health = 3;
+    int Health;
     private float Tick_Timer = 2.0f;
     private float Hit_Timer = 3.0f;
     private float Tick_Time = 0.0f;
@@ -26,6 +26,9 @@ public class Normal_Monster : MonoBehaviour
     float skill_timer = 0.0f;
     public GameObject skill2;
 
+    public void damage(int dmg){    // 피격 시 실행할 데미지 함수
+        this.Health -= dmg;
+    }
     void Move()
     {
         Vector3 moveVelocity = Vector3.zero;
@@ -56,12 +59,25 @@ public class Normal_Monster : MonoBehaviour
             GameObject item = Instantiate(portion) as GameObject;
             item.transform.position = this.transform.position;
         }
+        Debug.Log("Die");
         Destroy(this.gameObject); // 몬스터 오브젝트 삭제
     }
     void OnCollisionEnter2D(Collision2D col){
-        if(col.transform.name =="player"){ // 공격 스킬 피격판정시
+        if(col.transform.tag =="Player"){ // 공격 스킬 피격판정시
         // col.transform.tag로 사용 가능, 단, tag 사용시 모든 스킬의 tag 변경할 것
             Health -= 10; // 피격물체에 따른 체력 감소
+            isHit = true;
+        }
+        if(col.transform.tag == "HSkill01"){
+            this.Health -= 50;
+            isHit = true;
+        }
+        if(col.transform.tag == "HSkill02"){
+            this.Health -= 100;
+            isHit = true;
+        }
+        if(col.transform.tag == "GSkill01"){
+            this.Health -= 35;
             isHit = true;
         }
     }

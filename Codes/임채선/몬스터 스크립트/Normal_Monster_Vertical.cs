@@ -25,6 +25,10 @@ public class Normal_Monster_Vertical : MonoBehaviour
     float skill_timer = 0.0f;
     public GameObject skill2;
 
+    public void damage(int dmg){    // 피격 시 실행할 데미지 함수
+        this.Health -= dmg;
+    }
+    
     void Move()
     {
         Vector3 moveVelocity = Vector3.zero;
