@@ -1,0 +1,3 @@
+Rainland_Layer_2 : 과자의 집이 나오기 전까지 숲(음산함)
+Rainland_Layer_1 : 과자의 집 발견
+Rainland_Layer_3 :마녀와 만남

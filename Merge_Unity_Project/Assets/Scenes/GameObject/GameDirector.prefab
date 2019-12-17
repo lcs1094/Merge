@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7525087538731801694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7525087538731801693}
+  - component: {fileID: 7525087538731801695}
+  - component: {fileID: 7525087538731801692}
+  - component: {fileID: 7677284584734899323}
+  - component: {fileID: 4366266397810974004}
+  - component: {fileID: 5502186355813357893}
+  - component: {fileID: 3654546443474201003}
+  m_Layer: 0
+  m_Name: GameDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7525087538731801693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32, y: 0.09000002, z: -1.1671104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7525087538731801695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a462f28e66fbc74a9cec11bc50a3e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hansel: {fileID: 0}
+  Gretel: {fileID: 0}
+--- !u!114 &7525087538731801692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26982fc9d3939ee4eb98d19aac95cb71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NowChracter: {fileID: 0}
+  SwitchChracter: {fileID: 0}
+  CharacterCool: {fileID: 0}
+  NowBar: {fileID: 0}
+  SwitchBar: {fileID: 0}
+  Heart1: {fileID: 0}
+  Heart2: {fileID: 0}
+  Heart3: {fileID: 0}
+  PauseUI: {fileID: 0}
+  ClosePanel: {fileID: 0}
+  SavePanel: {fileID: 0}
+  ASkill: {fileID: 0}
+  DSkill: {fileID: 0}
+  ASkillCool: {fileID: 0}
+  DSkillCool: {fileID: 0}
+  CountBoard: {fileID: 0}
+  Count: {fileID: 0}
+  CountIcon: {fileID: 0}
+  CountX: {fileID: 0}
+  HanselImg: {fileID: 21300000, guid: 197fb16dfc861e5499ca55073c4790fb, type: 3}
+  GretelImg: {fileID: 21300000, guid: 2937572969385544d92c5abbeb988800, type: 3}
+  HanselBar: {fileID: 21300000, guid: a32de304ae42dda40a5dc866a900d957, type: 3}
+  GretelBar: {fileID: 21300000, guid: 13acf5b62ca1d6c479080209e81c0602, type: 3}
+  HSkillA: {fileID: 21300000, guid: 3f2c8d026ca336045a39ed53935bbcd3, type: 3}
+  HSkillD: {fileID: 21300000, guid: f86e2e3030ac3114390a64871088e4cc, type: 3}
+  GSkillA: {fileID: 21300000, guid: 188d00ffd2a18c341a38d8ed6b131b7c, type: 3}
+  GSkillD: {fileID: 21300000, guid: fccc7156f5a20d847b6f18880c73d76d, type: 3}
+  BreadIcon: {fileID: 21300000, guid: 92de099ef56825b4783513b14505547f, type: 3}
+  MonsterIcon: {fileID: 21300000, guid: 7d550f719fbefd045b0270187811ba22, type: 3}
+--- !u!114 &7677284584734899323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda90eadd38fce749b1f54370b462afb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetBread: 0
+  targetMonster: 0
+--- !u!114 &4366266397810974004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55616145ea94b1a4fb64f19ed2b8bd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueUI: {fileID: 0}
+  chatField: {fileID: 0}
+  character: {fileID: 0}
+--- !u!82 &5502186355813357893
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3654546443474201003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525087538731801694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d732fd4cb91f03458e74d711646a2c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touch: {fileID: 8300000, guid: 8a08b30e3fc63e64887353847110a455, type: 3}
+  audio: {fileID: 0}
