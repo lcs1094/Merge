@@ -5,5 +5,7 @@
 정지현 201610556<br>
 하윤주 201710997
 
-https://developer.cloud.unity3d.com/collab/orgs/lcs1094/projects/47d898ef-0b7e-4c81-8e13-7c5e69ea7553/commits/
-Unity Teams를 이용한 협업으로 인해 collaborate history 링크 
+Unity Teams를 이용하여 협업하였으며<br>
+History는 시트 추가 문제로 별도로 저장하였습니다.<br>
+
+데모 영상 : https://www.youtube.com/watch?v=vbUkbEXFzHg <br>
